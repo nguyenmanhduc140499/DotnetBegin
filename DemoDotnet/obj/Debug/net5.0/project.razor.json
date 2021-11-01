@@ -15649,6 +15649,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\NetCore\\DemoDotnet\\Views\\HelloWorld\\Demo.cshtml",
+      "TargetPath": "Views\\HelloWorld\\Demo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\NetCore\\DemoDotnet\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"

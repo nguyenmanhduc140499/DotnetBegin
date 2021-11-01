@@ -38,3 +38,4 @@ D:\NetCore\DemoDotnet\obj\Debug\net5.0\ref\DemoDotnet.dll
 D:\NetCore\DemoDotnet\obj\Debug\net5.0\DemoDotnet.pdb
 D:\NetCore\DemoDotnet\obj\Debug\net5.0\DemoDotnet.genruntimeconfig.cache
 D:\NetCore\DemoDotnet\obj\Debug\net5.0\DemoDotnet.csproj.CopyComplete
+D:\NetCore\DemoDotnet\obj\Debug\net5.0\Razor\Views\HelloWorld.cshtml.g.cs
