@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DemoDotnet.Models;
-
+using DemoDotnet.Data;
 namespace DemoDotnet.Controllers
 {
     public class ProductController : Controller

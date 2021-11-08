@@ -4,10 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using DemoDotnet.Models;
+using DemoDotnet.Data;
 
+namespace DemoDotnet.Data
+{
     public class ApplicationDBContext : DbContext
     {
-        public ApplicationDBContext (DbContextOptions<ApplicationDBContext> options)
+        public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options)
             : base(options)
         {
         }
@@ -20,3 +23,4 @@ using DemoDotnet.Models;
 
         public DbSet<DemoDotnet.Models.Product> Product { get; set; }
     }
+}
