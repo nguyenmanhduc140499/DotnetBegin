@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using DemoDotnet.Models;
 using DemoDotnet.Data;
+using DemoDotnet.Models;
 
 namespace DemoDotnet.Controllers
 {
@@ -34,7 +34,7 @@ namespace DemoDotnet.Controllers
             }
 
             var student = await _context.Student
-                .FirstOrDefaultAsync(m => m.StudentID == id);
+                .FirstOrDefaultAsync(m => m.PersonID == id);
             if (student == null)
             {
                 return NotFound();
@@ -54,7 +54,7 @@ namespace DemoDotnet.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("StudentID,StudentName,Address")] Student student)
+        public async Task<IActionResult> Create([Bind("StudentID,StudentName,Address,PersonID,PersonName")] Student student)
         {
             if (ModelState.IsValid)
             {
@@ -86,9 +86,9 @@ namespace DemoDotnet.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("StudentID,StudentName,Address")] Student student)
+        public async Task<IActionResult> Edit(string id, [Bind("StudentID,StudentName,Address,PersonID,PersonName")] Student student)
         {
-            if (id != student.StudentID)
+            if (id != student.PersonID)
             {
                 return NotFound();
             }
@@ -102,7 +102,7 @@ namespace DemoDotnet.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!StudentExists(student.StudentID))
+                    if (!StudentExists(student.PersonID))
                     {
                         return NotFound();
                     }
@@ -125,7 +125,7 @@ namespace DemoDotnet.Controllers
             }
 
             var student = await _context.Student
-                .FirstOrDefaultAsync(m => m.StudentID == id);
+                .FirstOrDefaultAsync(m => m.PersonID == id);
             if (student == null)
             {
                 return NotFound();
@@ -147,7 +147,7 @@ namespace DemoDotnet.Controllers
 
         private bool StudentExists(string id)
         {
-            return _context.Student.Any(e => e.StudentID == id);
+            return _context.Student.Any(e => e.PersonID == id);
         }
     }
 }

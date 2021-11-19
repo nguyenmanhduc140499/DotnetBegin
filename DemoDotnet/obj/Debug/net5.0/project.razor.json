@@ -15649,6 +15649,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\NetCore\\DemoDotnet\\Views\\Category\\Delete.cshtml",
+      "TargetPath": "Views\\Category\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\NetCore\\DemoDotnet\\Views\\Student\\Index.cshtml",
       "TargetPath": "Views\\Student\\Index.cshtml",
       "FileKind": "mvc"
@@ -15661,11 +15666,6 @@
     {
       "FilePath": "d:\\NetCore\\DemoDotnet\\Views\\Person\\Delete.cshtml",
       "TargetPath": "Views\\Person\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\NetCore\\DemoDotnet\\Views\\Employee\\Edit.cshtml",
-      "TargetPath": "Views\\Employee\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15689,18 +15689,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\NetCore\\DemoDotnet\\Views\\Employee\\Delete.cshtml",
-      "TargetPath": "Views\\Employee\\Delete.cshtml",
+      "FilePath": "d:\\NetCore\\DemoDotnet\\Views\\Category\\Details.cshtml",
+      "TargetPath": "Views\\Category\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "d:\\NetCore\\DemoDotnet\\Views\\Person\\Create.cshtml",
       "TargetPath": "Views\\Person\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\NetCore\\DemoDotnet\\Views\\Employee\\Create.cshtml",
-      "TargetPath": "Views\\Employee\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15724,11 +15719,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\NetCore\\DemoDotnet\\Views\\Employee\\Details.cshtml",
-      "TargetPath": "Views\\Employee\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "d:\\NetCore\\DemoDotnet\\Views\\Product\\Edit.cshtml",
       "TargetPath": "Views\\Product\\Edit.cshtml",
       "FileKind": "mvc"
@@ -15744,8 +15734,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\NetCore\\DemoDotnet\\Views\\Employee\\Index.cshtml",
-      "TargetPath": "Views\\Employee\\Index.cshtml",
+      "FilePath": "d:\\NetCore\\DemoDotnet\\Views\\Category\\Index.cshtml",
+      "TargetPath": "Views\\Category\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\DemoDotnet\\Views\\Category\\Create.cshtml",
+      "TargetPath": "Views\\Category\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\DemoDotnet\\Views\\Category\\Edit.cshtml",
+      "TargetPath": "Views\\Category\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
