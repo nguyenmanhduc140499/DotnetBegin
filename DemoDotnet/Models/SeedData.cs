@@ -24,21 +24,21 @@ namespace DemoDotnet.Models
                     new Student
                     {
                         StudentID = "ST01",
-                        StudentName = "Nguyen Manh Duc 1 ",
+                        //StudentName = "Nguyen Manh Duc 1 ",
                         Address = "Ha Noi",
                     },
 
                     new Student
                     {
                         StudentID = "ST02",
-                        StudentName = "Nguyen Manh Duc 2",
+                        //StudentName = "Nguyen Manh Duc 2",
                         Address = "Ha Noi",
                     },
 
                     new Student
                     {
                         StudentID = "ST03",
-                        StudentName = "Nguyen Manh Duc 3",
+                        // StudentName = "Nguyen Manh Duc 3",
                         Address = "Ha Noi",
                     }
                 );
