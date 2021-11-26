@@ -1,4 +1,4 @@
-@model IEnumerable<DemoDotnet.Models.Product>
+@model DemoDotnet.Models.ProductGenerViewModel
 
 @{
     ViewData["Title"] = "Index";
@@ -11,6 +11,9 @@
 </p>
 <form asp-controller="Product" asp-action="Index">
     <p>
+        <select asp-for="ProductNames" asp-items="Model.Names">
+            <option value="">All</option>
+        </select>
         Title: <input type="text" name="SearchString" />
         <input type="submit" value="Filter" />
     </p>
@@ -19,22 +22,22 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.ProductName)
+                @Html.DisplayNameFor(model => model.Products[0].ProductName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.UnitPrice)
+                @Html.DisplayNameFor(model => model.Products[0].UnitPrice)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Quantity)
+                @Html.DisplayNameFor(model => model.Products[0].Quantity)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Category)
+                @Html.DisplayNameFor(model => model.Products[0].Category)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @foreach (var item in Model.Products)
         {
             <tr>
                 <td>
