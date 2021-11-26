@@ -20,10 +20,25 @@ namespace DemoDotnet.Controllers
         }
 
         // GET: Product
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string ProductNameSearch, string SearchString)
         {
-            var applicationDBContext = _context.Product.Include(p => p.Category);
-            return View(await applicationDBContext.ToListAsync());
+            IQueryable<string> ProductNameQuery = from m in _context.Product orderby m.ProductName select m.ProductName;
+            var Products = from m in _context.Product
+            select m;
+            if(!String.IsNullOrEmpty(SearchString)){
+                Products = Products.Where(s => s.ProductName.Contains(SearchString));
+            }
+            if(!String.IsNullOrEmpty(ProductNameSearch)){
+                Products = Products.Where(s => s.ProductName == ProductNameSearch);
+            }
+            // var ProductNameVM = new Product{
+            //     ProductNames = new SelectList(await ProductNameQuery.Distinct().ToListAsync()),
+            //     Product = await Products.ToListAsync()
+            // };
+
+            return View(await Products.ToListAsync());
+            // var applicationDBContext = _context.Product.Include(p => p.Category);
+            // return View(await applicationDBContext.ToListAsync());
         }
 
         // GET: Product/Details/5

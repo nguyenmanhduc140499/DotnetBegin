@@ -196,3 +196,8 @@ D:\NetCore\DemoDotnet\obj\Debug\net5.0\Razor\Views\items\Delete.cshtml.g.cs
 D:\NetCore\DemoDotnet\obj\Debug\net5.0\Razor\Views\items\Details.cshtml.g.cs
 D:\NetCore\DemoDotnet\obj\Debug\net5.0\Razor\Views\items\Edit.cshtml.g.cs
 D:\NetCore\DemoDotnet\obj\Debug\net5.0\Razor\Views\items\Index.cshtml.g.cs
+D:\NetCore\DemoDotnet\obj\Debug\net5.0\Razor\Views\Movies\Create.cshtml.g.cs
+D:\NetCore\DemoDotnet\obj\Debug\net5.0\Razor\Views\Movies\Delete.cshtml.g.cs
+D:\NetCore\DemoDotnet\obj\Debug\net5.0\Razor\Views\Movies\Details.cshtml.g.cs
+D:\NetCore\DemoDotnet\obj\Debug\net5.0\Razor\Views\Movies\Edit.cshtml.g.cs
+D:\NetCore\DemoDotnet\obj\Debug\net5.0\Razor\Views\Movies\Index.cshtml.g.cs

@@ -20,6 +20,7 @@ namespace DemoDotnet.Data
         public DbSet<DemoDotnet.Models.Category> Category { get; set; }
         public DbSet<DemoDotnet.Models.Employes> Employes { get; set; }
         public DbSet<DemoDotnet.Models.items> items { get; set; }
+        public DbSet<DemoDotnet.Models.Movie> Movie { get; set; }
 
     }
 }

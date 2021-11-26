@@ -1,5 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Mvc.Rendering;
+
 namespace DemoDotnet.Models
 {
     public class Product
@@ -12,6 +14,5 @@ namespace DemoDotnet.Models
         public string UnitPrice { get; set; }
         public string Quantity { get; set; }
         public Category Category { get; set; }
-
     }
 }
