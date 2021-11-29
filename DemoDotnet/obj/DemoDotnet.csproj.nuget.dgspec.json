@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NetCore\\DemoDotnet\\DemoDotnet.csproj": {}
+    "D:\\NetCore\\DotnetBegin\\DemoDotnet\\DemoDotnet.csproj": {}
   },
   "projects": {
-    "D:\\NetCore\\DemoDotnet\\DemoDotnet.csproj": {
+    "D:\\NetCore\\DotnetBegin\\DemoDotnet\\DemoDotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NetCore\\DemoDotnet\\DemoDotnet.csproj",
+        "projectUniqueName": "D:\\NetCore\\DotnetBegin\\DemoDotnet\\DemoDotnet.csproj",
         "projectName": "DemoDotnet",
-        "projectPath": "D:\\NetCore\\DemoDotnet\\DemoDotnet.csproj",
+        "projectPath": "D:\\NetCore\\DotnetBegin\\DemoDotnet\\DemoDotnet.csproj",
         "packagesPath": "C:\\Users\\Thinkpad\\.nuget\\packages\\",
-        "outputPath": "D:\\NetCore\\DemoDotnet\\obj\\",
+        "outputPath": "D:\\NetCore\\DotnetBegin\\DemoDotnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thinkpad\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -10,6 +10,7 @@ namespace DemoDotnet.Models
         public string ProductID { get; set; }
         public string ProductName { get; set; }
         public string CategoryID { get; set; }
+        public string CategoryName { get; set; }
         public string ItemID { get; set; }
         public string UnitPrice { get; set; }
         public string Quantity { get; set; }

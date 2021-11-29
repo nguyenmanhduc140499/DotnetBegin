@@ -15,32 +15,34 @@ namespace DemoDotnet.Models
                 serviceProvider.GetRequiredService<
                     DbContextOptions<ApplicationDBContext>>()))
             {
-                if (context.Student.Any())
+                if (context.Movie.Any())
                 {
                     return;   // DB has been seeded
                 }
 
-                context.Student.AddRange(
-                    new Student
+                context.Movie.AddRange(
+                    new Movie
                     {
-                        StudentID = "ST01",
-                        //StudentName = "Nguyen Manh Duc 1 ",
-                        Address = "Ha Noi",
-                    },
-
-                    new Student
-                    {
-                        StudentID = "ST02",
-                        //StudentName = "Nguyen Manh Duc 2",
-                        Address = "Ha Noi",
-                    },
-
-                    new Student
-                    {
-                        StudentID = "ST03",
-                        // StudentName = "Nguyen Manh Duc 3",
-                        Address = "Ha Noi",
+                        Title = "When Harry Met Sally",
+                        ReleaseDate = DateTime.Parse("1989-1-11"),
+                        Genre = "Romantic Comedy",
+                        Rating = "R",
+                        Price = 7.99M
                     }
+
+                    // new Student
+                    // {
+                    //     StudentID = "ST02",
+                    //     //StudentName = "Nguyen Manh Duc 2",
+                    //     Address = "Ha Noi",
+                    // },
+
+                    // new Student
+                    // {
+                    //     StudentID = "ST03",
+                    //     // StudentName = "Nguyen Manh Duc 3",
+                    //     Address = "Ha Noi",
+                    // }
                 );
                 context.SaveChanges();
             }
