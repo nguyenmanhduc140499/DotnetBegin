@@ -15674,6 +15674,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\NetCore\\DotnetBegin\\DemoDotnet\\Views\\MovieList\\Delete.cshtml",
+      "TargetPath": "Views\\MovieList\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\NetCore\\DotnetBegin\\DemoDotnet\\Views\\Movies\\Delete.cshtml",
       "TargetPath": "Views\\Movies\\Delete.cshtml",
       "FileKind": "mvc"
@@ -15709,6 +15714,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\NetCore\\DotnetBegin\\DemoDotnet\\Views\\MovieList\\Details.cshtml",
+      "TargetPath": "Views\\MovieList\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\NetCore\\DotnetBegin\\DemoDotnet\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -15716,6 +15726,16 @@
     {
       "FilePath": "d:\\NetCore\\DotnetBegin\\DemoDotnet\\Views\\Employes\\Details.cshtml",
       "TargetPath": "Views\\Employes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\DotnetBegin\\DemoDotnet\\Views\\MovieList\\Index.cshtml",
+      "TargetPath": "Views\\MovieList\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\DotnetBegin\\DemoDotnet\\Views\\ProductList\\Details.cshtml",
+      "TargetPath": "Views\\ProductList\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15741,6 +15761,16 @@
     {
       "FilePath": "d:\\NetCore\\DotnetBegin\\DemoDotnet\\Views\\Student\\Index.cshtml",
       "TargetPath": "Views\\Student\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\DotnetBegin\\DemoDotnet\\Views\\ProductList\\Delete.cshtml",
+      "TargetPath": "Views\\ProductList\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\DotnetBegin\\DemoDotnet\\Views\\MovieList\\Create.cshtml",
+      "TargetPath": "Views\\MovieList\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15784,6 +15814,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\NetCore\\DotnetBegin\\DemoDotnet\\Views\\ProductList\\Index.cshtml",
+      "TargetPath": "Views\\ProductList\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\DotnetBegin\\DemoDotnet\\Views\\MovieList\\Edit.cshtml",
+      "TargetPath": "Views\\MovieList\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\NetCore\\DotnetBegin\\DemoDotnet\\Views\\Student\\Create.cshtml",
       "TargetPath": "Views\\Student\\Create.cshtml",
       "FileKind": "mvc"
@@ -15809,6 +15849,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\NetCore\\DotnetBegin\\DemoDotnet\\Views\\ProductList\\Edit.cshtml",
+      "TargetPath": "Views\\ProductList\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\NetCore\\DotnetBegin\\DemoDotnet\\Views\\items\\Delete.cshtml",
       "TargetPath": "Views\\items\\Delete.cshtml",
       "FileKind": "mvc"
@@ -15821,6 +15866,11 @@
     {
       "FilePath": "d:\\NetCore\\DotnetBegin\\DemoDotnet\\Views\\Person\\Index.cshtml",
       "TargetPath": "Views\\Person\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\DotnetBegin\\DemoDotnet\\Views\\ProductList\\Create.cshtml",
+      "TargetPath": "Views\\ProductList\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
