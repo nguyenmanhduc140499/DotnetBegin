@@ -10,10 +10,10 @@ namespace DemoDotnet.Models
     {
         public DataTable ExcelToDataTable(string strPath)
         {
-            FileInfo fi = new FileInfo(strPath);
-            ExcelPackage excelPackage = new ExcelPackage(fi);
+            FileInfo fi4 = new FileInfo(strPath);
+            ExcelPackage excelPackages = new ExcelPackage(fi4);
             DataTable dt = new DataTable();
-            ExcelWorksheet worksheet = excelPackage.Workbook.Worksheets[1];
+            ExcelWorksheet worksheet = excelPackages.Workbook.Worksheets[1];
             //check if the worksheet is completely empty
             if (worksheet.Dimension == null)
             {

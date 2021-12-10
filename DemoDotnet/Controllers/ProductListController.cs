@@ -101,7 +101,7 @@ namespace DemoDotnet.Controllers
                     }
                 }
             }
-            return View(file);
+            return View();
         }
 
         private int WriteDataTableToDatabase(System.Data.DataTable dt)
@@ -113,8 +113,8 @@ namespace DemoDotnet.Controllers
                 bulkCopy.DestinationTableName = "ProductID";
                 bulkCopy.ColumnMappings.Add(0, "ProductName");
                 bulkCopy.ColumnMappings.Add(1, "CategoryID");
-                bulkCopy.ColumnMappings.Add(1, "UnitPrice");
-                bulkCopy.ColumnMappings.Add(1, "Quantity");
+                bulkCopy.ColumnMappings.Add(2, "UnitPrice");
+                bulkCopy.ColumnMappings.Add(3, "Quantity");
                 bulkCopy.WriteToServer(dt);
             }
             catch

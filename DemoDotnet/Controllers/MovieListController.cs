@@ -19,10 +19,7 @@ namespace DemoDotnet.Controllers
     {
         ExcelProcess excelPro = new ExcelProcess();
         public IConfiguration Configuration { get; }
-        // public Test(IConfiguration config){
-        //     Configuration = config;
-        // }
-        private readonly ApplicationDBContext _context;
+        public readonly ApplicationDBContext _context;
 
         public MovieListController(ApplicationDBContext context)
         {
@@ -92,9 +89,9 @@ namespace DemoDotnet.Controllers
                                 await file.CopyToAsync(stream);
                                 //read data from file and write to database
                                 //_excelPro la doi tuong xu ly file excel ExcelProcess
-                                var dt = excelPro.ExcelToDataTable(fileLocation);
-                                //ghi du lieu datatable vao database
-                                WriteDataTableToDatabase(dt);
+                                var dtExcel = excelPro.ExcelToDataTable(fileLocation);
+                                //ghi du lieu datatable vao database,
+                                WriteDataTableToDatabase(dtExcel);
 
                             }
                             return RedirectToAction(nameof(Index));
@@ -183,7 +180,7 @@ namespace DemoDotnet.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-        private int WriteDataTableToDatabase(DataTable dt)
+        public int WriteDataTableToDatabase(DataTable dtExcel)
         {
             try
             {
@@ -195,13 +192,13 @@ namespace DemoDotnet.Controllers
                 bulkCopy.ColumnMappings.Add(2, "Genre");
                 bulkCopy.ColumnMappings.Add(3, "Price");
                 bulkCopy.ColumnMappings.Add(4, "Rating");
-                bulkCopy.WriteToServer(dt);
+                bulkCopy.WriteToServer(dtExcel);
             }
             catch
             {
                 return 0;
             }
-            return dt.Rows.Count;
+            return dtExcel.Rows.Count;
         }
 
         private bool MovieExists(int id)
